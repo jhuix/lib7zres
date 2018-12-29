@@ -5,9 +5,9 @@ lib7zres 工程是一读取由7z压缩文件做为资源包的库。
 
 ## 7Zip - LZMA SDK 
 
-7z文件分析和解压缩采用 [7Zip](https://www.7-zip.org) 的[LZMA SDK](https://www.7-zip.org/sdk.html)开源版本源码。
+7z文件分析和解压缩引用了 [7Zip](https://www.7-zip.org) 的[LZMA SDK](https://www.7-zip.org/sdk.html)开源版本源码, 该部分源码请遵守它相关的开源许可。。
 
-## Example
+## Examples
 
 #### 1. 获取一个test.7z资源包里的名为"skin\\ui\\index.html"的内容至缓存中:
 
