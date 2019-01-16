@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Common">
+      <UniqueIdentifier>{6d917a5d-4826-4f00-9a16-047e8e72089f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Spec">
+      <UniqueIdentifier>{21d6611c-432d-48d0-9860-434623410f0e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="EXE">
+      <UniqueIdentifier>{9c2c0fb5-8c90-4b9d-bc99-b55fae7d74b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="lzma\C\7z.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\7zAlloc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\7zBuf.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\7zCrc.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\7zFile.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\7zTypes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\Bcj2.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\Bra.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\CpuArch.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\Delta.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\Lzma2Dec.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\LzmaDec.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\Ppmd.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\Ppmd7.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\Compiler.h">
+      <Filter>Spec</Filter>
+    </ClInclude>
+    <ClInclude Include="lzma\C\Util\7z\Precomp.h">
+      <Filter>Spec</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="lzma\C\7zAlloc.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\7zArcIn.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\7zBuf.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\7zCrc.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\7zCrcOpt.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\7zDec.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\7zFile.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\7zStream.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\Bcj2.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\Bra.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\Bra86.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\BraIA64.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\CpuArch.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\Delta.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\Lzma2Dec.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\LzmaDec.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\Ppmd7.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\Ppmd7Dec.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\Util\7z\Precomp.c">
+      <Filter>Spec</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\Util\7z\7zMain.c">
+      <Filter>EXE</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
