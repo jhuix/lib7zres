@@ -13,7 +13,7 @@
 [Bb]uild/
 [Oo]bj/
 [Ll]ib/
-[Bb]in/
+/[Bb]in/
 
 # Visual Studio 2015|2017 cache/options directory
 .vs/
