@@ -237,7 +237,7 @@ static UINT g_FileCodePage = CP_ACP;
     , total_unpsize_(0)
     , ignorecase_(ignorecase)
     , errcode_(SZ_OK){
-#if defined(_WIN32)
+#ifndef _USE_UTF8
     g_FileCodePage = AreFileApisANSI() ? CP_ACP : CP_OEMCP;
 #endif
     memset(&lookStream_, 0, sizeof(lookStream_));
@@ -363,6 +363,9 @@ static UINT g_FileCodePage = CP_ACP;
         rhd->index = i;
         rhd->filesize = fileSize;
         rhd->filename = (wchar_t*)temp;
+        rhd->attrib = 0;
+        rhd->mtime.dwHighDateTime = rhd->mtime.dwLowDateTime = 0;
+        rhd->ctime.dwHighDateTime = rhd->ctime.dwLowDateTime = 0;
         rhd->data = nullptr;
 #ifdef USE_WINDOWS_FILE
         if (SzBitWithVals_Check(&db_.MTime, i))

@@ -76,7 +76,7 @@ namespace SEVENZRES {
     void* res = szres->LoadResource(filename, &buf, size);
     if (buf) {
       CSzFile outFile;
-      if (OutFile_Open(&outFile, destfile)) {
+      if (!OutFile_Open(&outFile, destfile)) {
         if (File_Write(&outFile, buf, &size)) {
           result = true;
         }
@@ -120,7 +120,7 @@ namespace SEVENZRES {
     void* res = szres->LoadResource(filename, &buf, size);
     if (buf) {
       CSzFile outFile;
-      if (OutFile_OpenUtf16(&outFile, (const UInt16 *)destfile)) {
+      if (!OutFile_OpenUtf16(&outFile, (const UInt16 *)destfile)) {
         if (File_Write(&outFile, buf, &size)) {
           result = true;
         }

@@ -10,12 +10,10 @@
     <ClInclude Include="7zres.h" />
     <ClInclude Include="lib7zres.h" />
     <ClInclude Include="jres.h" />
+    <ClInclude Include="VERSION" />
   </ItemGroup>
   <ItemGroup>
     <None Include="7zres.def">
-      <Filter>resource files</Filter>
-    </None>
-    <None Include="VERSION">
       <Filter>resource files</Filter>
     </None>
     <None Include="LICENSE" />
