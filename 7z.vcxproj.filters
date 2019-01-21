@@ -60,6 +60,9 @@
     <ClInclude Include="lzma\C\Util\7z\Precomp.h">
       <Filter>Spec</Filter>
     </ClInclude>
+    <ClInclude Include="lzma\C\Aes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="lzma\C\7zAlloc.c">
@@ -121,6 +124,12 @@
     </ClCompile>
     <ClCompile Include="lzma\C\Util\7z\7zMain.c">
       <Filter>EXE</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\Aes.c">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="lzma\C\AesOpt.c">
+      <Filter>Common</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>

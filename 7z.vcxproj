@@ -461,6 +461,7 @@
     <ClInclude Include="lzma\C\7zCrc.h" />
     <ClInclude Include="lzma\C\7zFile.h" />
     <ClInclude Include="lzma\C\7zTypes.h" />
+    <ClInclude Include="lzma\C\Aes.h" />
     <ClInclude Include="lzma\C\Bcj2.h" />
     <ClInclude Include="lzma\C\Bra.h" />
     <ClInclude Include="lzma\C\Compiler.h" />
@@ -490,6 +491,8 @@
     </ClCompile>
     <ClCompile Include="lzma\C\7zFile.c" />
     <ClCompile Include="lzma\C\7zStream.c" />
+    <ClCompile Include="lzma\C\Aes.c" />
+    <ClCompile Include="lzma\C\AesOpt.c" />
     <ClCompile Include="lzma\C\Bcj2.c" />
     <ClCompile Include="lzma\C\Bra.c" />
     <ClCompile Include="lzma\C\Bra86.c" />
